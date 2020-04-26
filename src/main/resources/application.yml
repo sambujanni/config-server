@@ -1,0 +1,13 @@
+server:
+  port: 8191
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sambujanni/config-file-store-micro.git
+          username: sambujanni
+          password: Janni@1990
+          search-paths:
+            - '*service'
